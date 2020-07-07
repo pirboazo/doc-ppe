@@ -1,0 +1,25 @@
+# Organisation des pages.
+
+## Ecriture
+
+les pages sont écrites en Markdown
+
+## organisation des sujets
+
+ docs/
+ |- sujet-1/
+ |  |- images/
+ |  |  |- image1.png
+ |  |  |- image2.png
+ |  |- index.md # sujet 1
+ |  |- texte1.md 
+ |- section2/
+ |  |- index.md # section 2
+ |- sujet-2/
+ |  |- index.md # sujet 2
+ |  |- texte1.md # Section 1
+
+## Déploiement
+
+à décrire 
+
