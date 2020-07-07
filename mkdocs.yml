@@ -1,0 +1,6 @@
+site_name: Documentations Technique PPE
+
+plugins:
+    - search
+    - awesome-pages
+
