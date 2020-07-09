@@ -4,4 +4,7 @@ plugins:
     - search
     - awesome-pages
 
-theme: readthedocs
+#theme: readthedocs
+theme: 
+    name: material
+
