@@ -2,7 +2,7 @@
 
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -50,7 +50,7 @@
       
         
         <a href="#organisation-de-la-documentation" class="md-skip">
-          Skip to content
+          Aller au contenu
         </a>
       
     </div>
@@ -92,7 +92,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -450,7 +450,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
   
   
     
@@ -460,35 +460,75 @@
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </span>
-      Table of contents
+      Table des matières
     </label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ecriture" class="md-nav__link">
-    Ecriture
+  <a href="#les-outils" class="md-nav__link">
+    les outils
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#organisation-des-pages" class="md-nav__link">
-    Organisation des pages
+  <a href="#organisation-du-site" class="md-nav__link">
+    Organisation du site
+  </a>
+  
+    <nav class="md-nav" aria-label="Organisation du site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-repertoires-forment-lorganisation-du-site" class="md-nav__link">
+    Les répertoires forment l'organisation du site
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
+  <a href="#ecriture-dune-page" class="md-nav__link">
+    Ecriture d'une page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#alimentation-du-site" class="md-nav__link">
     Alimentation du site
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#deploiement" class="md-nav__link">
-    Déploiement
+  <a href="#organisation-des-mises-a-jours" class="md-nav__link">
+    Organisation des mises à jours.
   </a>
+  
+    <nav class="md-nav" aria-label="Organisation des mises à jours.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archivage-deploiement" class="md-nav__link">
+    Archivage &amp; déploiement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions-a-faire" class="md-nav__link">
+    Actions à faire
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -509,11 +549,41 @@
                 
                 
                 <h1 id="organisation-de-la-documentation">Organisation de la documentation.</h1>
-<h2 id="ecriture">Ecriture</h2>
-<p>Les pages sont écrites en <a href="https://fr.wikipedia.org/wiki/Markdown">Markdown</a></p>
-<h2 id="organisation-des-pages">Organisation des pages</h2>
-<p>Les répertoires forment l'organisation du site</p>
-<p><img alt="organisation des documents" src="images/Selection_113.png" /></p>
+<h2 id="les-outils">les outils</h2>
+<p>Un générateur de site statique : <a href="https://www.mkdocs.org/">MkDocs</a> utilisant :</p>
+<ul>
+<li>des plugins<ul>
+<li>search</li>
+<li>awesome-pages</li>
+</ul>
+</li>
+<li>
+<p>des Themes</p>
+<ul>
+<li>readthedocs</li>
+<li>material</li>
+</ul>
+</li>
+<li>
+<p>la bibliothèque Python-Markdown pour produire les documents en HTML.</p>
+</li>
+</ul>
+<p>Intégrant des fonctionnalités de recherche</p>
+<p><strong>Recherche</strong>
+   <img alt="recherche" src="images/Recherche.png" /></p>
+<p>Un <strong>espace de travail et stockage</strong> des documents dans un nuage avec une copie locale sur nos machines, les modifications seront visibles par tous.(Google Drive, Nextcloud(infomaniak))</p>
+<p>Un <em>éditeur de texte</em> <strong>Markdown</strong> permettant la visualisation du rendu htlm du texte, je vous propose <a href="http://pad.haroopress.com/user.html">haroopad</a>
+<img alt="Haroopad" src="images/haroopad.png" /></p>
+<p><strong>git</strong> (logiciel de gestion de versions décentralisé.) pour gérer l'historique des modifications et les demandes de corrections d'erreur.</p>
+<p>Une <strong>organisation de travail</strong> :</p>
+<ul>
+<li>une répartition des sujets.</li>
+<li>Page cachée jusqu'à validation par le comité ou par vous-même.</li>
+</ul>
+<h2 id="organisation-du-site">Organisation du site</h2>
+<h3 id="les-repertoires-forment-lorganisation-du-site">Les répertoires forment l'organisation du site</h3>
+<p>Exemples:
+<img alt="organisation des documents" src="images/Selection_113.png" /></p>
 <p>Ainsi les répertoires du premier niveau structure le menu</p>
 <ul>
 <li>Chauffage (Sans Titre )</li>
@@ -526,15 +596,34 @@
 <img alt="Theme Read The Docs" src="images/ThemeReadTheDocs.png" /></p>
 <p>Résultat pour le thème par Material
 <img alt="Theme Material" src="images/ThemeMaterial.png" /></p>
-<h2 id="alimentation-du-site">Alimentation du site</h2>
+<h3 id="ecriture-dune-page">Ecriture d'une page</h3>
+<p>Les pages sont écrites en <a href="https://fr.wikipedia.org/wiki/Markdown">Markdown</a></p>
+<p>Exemples de la syntaxe
+<img alt="syntaxe" src="images/syntaxe.png" /></p>
+<h3 id="alimentation-du-site">Alimentation du site</h3>
 <ul>
-<li>Pour créer un nouveau Thème on rajoute un répertoires</li>
-<li>Pour créer un sous theme on crée un répertoire dans le themes</li>
-<li>Pour ajouter un contenu on crée un fichier avec un nom quelconque la page appaitra avec le nom du titre</li>
+<li>Pour créer un nouveau thème on rajoute un répertoire dans le repertoire docs.</li>
+<li>Pour créer un sous thème on crée un répertoire dans le thème.</li>
+<li>Pour ajouter un contenu on crée un fichier avec un nom quelconque la page apparaitra avec le nom du titre et si pas de titre avec le nom du fichier.</li>
 </ul>
-<p><strong>Voir</strong> page PhotoVolta :  Installation Photo Voltaique</p>
-<h2 id="deploiement">Déploiement</h2>
-<p>Organisation des mises à jours.</p>
+<p><strong>Voir</strong> page <a href="/Electricit%C3%A9/PhotoVolta/">PhotoVolta</a> :  Installation Photo Voltaique</p>
+<h2 id="organisation-des-mises-a-jours">Organisation des mises à jours.</h2>
+<h3 id="archivage-deploiement">Archivage &amp; déploiement</h3>
+<p>La sauvegarde des pages sur github ou ailleurs que j'appelerai <em>Githeb</em> dans le reste du document, mais utilisant git</p>
+<p>Chaque semaine ou soir un script</p>
+<ul>
+<li>envoie les modifications des fichiers à la base du site, <strong>répertoire /docs</strong> sur <em>Githeb</em></li>
+<li>met à jour le site, <strong>répertoire /site</strong> sur <em>Githeb</em></li>
+<li>publie le site sur la machine l'hébergeant le site de documentation.</li>
+</ul>
+<h3 id="actions-a-faire">Actions à faire</h3>
+<ol>
+<li>Ouvrir un compte Google (doctech.belorne@gmail.com)</li>
+<li>Ouvrir un compte git sur un hébergement (github, gitab, framagit, sourceforge)</li>
+<li>Définir où est publié le site.</li>
+<li>Créer les scripts de mise à jour. Installation sur la machine cible.</li>
+<li>Créer l'organisation des contenus du site</li>
+</ol>
                 
               
               
@@ -560,7 +649,7 @@
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
-                  Previous
+                  Précédent
                 </span>
                 Répertoire
               </div>
@@ -588,7 +677,7 @@
     </div>
     
       <script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="../assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s"}</script>
       
       <script>
         app = initialize({
