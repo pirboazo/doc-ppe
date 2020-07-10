@@ -7,4 +7,5 @@ plugins:
 #theme: readthedocs
 theme: 
     name: material
+    language: fr
 
