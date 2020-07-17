@@ -84,8 +84,30 @@ Chaque semaine ou soir un script
 
 ### Actions à faire
 
-1. Ouvrir un compte Google (doctech.belorne@gmail.com)
-2. Ouvrir un compte git sur un hébergement (github, gitab, framagit, sourceforge)
-2. Définir où est publié le site.
-4. Créer les scripts de mise à jour. Installation sur la machine cible.
+1. Ouvrir un compte Google (doctech.belorne@gmail.com) Non ,on gerera un workflow avec un responsable de publication ( Pierre pour le momment)
+
+2. Ouvrir un compte git sur un hébergement (github, gitab, framagit, sourceforge) sur cpanel Tizoo à valider
+2. Définir où est publié le site.  bel-orne.info/docs
+
+4. Créer les scripts de mise à jour. Installation sur la machine cible. pierre
 5. Créer l'organisation des contenus du site
+
+    Technique / sécurisé l'Accés
+               Chauffage
+                    ventillation
+                    relevé des compteurs chauffage
+                    relevé des compteurs eau chaude - ecs
+               Electricité
+                Eclairages communs
+                Eclairages exterieurs
+                Eclairages de secours
+                Photo-Voltaique.
+    Fonctionnel / ouvert
+            Place de Jeux
+            Cuisine
+            Parking
+            Places visiteurs
+            Allées
+            Adresses utiles
+
+    accès réservé mots
