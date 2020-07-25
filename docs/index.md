@@ -21,3 +21,4 @@ C'est à dire :
 + facile à maintenir :-(
   + pas de CMS , ni base de donnée
   + utilisant un format de texte brut facile à écrire et à lire.
+   + Automatique
