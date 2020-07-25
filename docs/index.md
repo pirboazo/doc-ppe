@@ -18,6 +18,6 @@ Je pense et propose que nous initions un site de "mémorisation" simple nous per
 C'est à dire :
 + gérable par nous,
 + demandant peu de ressources CPU ( VPS à partir de 5 CHF / mois)
-+ facile à maintenir 
++ facile à maintenir :-(
   + pas de CMS , ni base de donnée
   + utilisant un format de texte brut facile à écrire et à lire.
